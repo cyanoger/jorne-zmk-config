@@ -28,10 +28,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans  &trans
+&lt 4 ESC  &kp LG(BACKSPACE)  &kp S         &kp LG(SEMICOLON)  &kp L      &kp LG(NUMBER_0)  &kp LG(U)            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+           &kp LSHIFT         &kp LG(J)     &kp X              &kp S      &kp E             &kp B                &trans  &trans  &trans  &trans  &trans  &trans
+           &kp LEFT_COMMAND   &kp LEFT_ALT  &kp C              &kp V      &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans  &trans
+                                                               &kp LG(Z)  &kp LG(LS(Z))     &kp SPACE            &trans  &trans  &trans
             >;
         };
 
@@ -56,9 +56,9 @@
         layer_adjust {
             bindings = <
 &sys_reset  &bootloader  &tog 0        &tog 1        &tog 2        &tog 3        &none           &none         &none         &none         &none         &none         &bootloader  &sys_reset
-        &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-        &none        &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &none
-                                                 &trans        &none         &trans          &trans        &none         &trans
+            &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
+            &none        &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &none
+                                                     &trans        &none         &trans          &trans        &none         &trans
             >;
         };
     };
