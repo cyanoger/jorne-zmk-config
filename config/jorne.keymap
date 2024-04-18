@@ -17,7 +17,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_1 {
+        layer_procreate_1 {
             bindings = <
 &lt 4 ESC  &kp BACKSPACE  &kp LG(NUMBER_0)  &kp LG(K)  &kp LEFT_WIN      &kp LEFT_SHIFT     &kp LEFT_ALT     &trans  &trans  &trans  &trans  &trans  &trans  &trans
            &kp A          &kp LG(J)         &kp L      &kp S             &kp E              &kp B            &trans  &trans  &trans  &trans  &trans  &trans
@@ -26,21 +26,21 @@
             >;
         };
 
-        layer_2 {
+        layer_procreate_2 {
             bindings = <
-&lt 4 ESC  &kp LG(BACKSPACE)  &kp S         &kp LG(SEMICOLON)  &kp L      &kp LG(NUMBER_0)  &kp LG(U)            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-           &kp LSHIFT         &kp LG(J)     &kp X              &kp S      &kp E             &kp B                &trans  &trans  &trans  &trans  &trans  &trans
-           &kp LEFT_COMMAND   &kp LEFT_ALT  &kp C              &kp V      &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans  &trans
-                                                               &kp LG(Z)  &kp LG(LS(Z))     &kp SPACE            &trans  &trans  &trans
+&lt 4 ESC  &kp LG(BACKSPACE)  &kp LG(U)     &kp LG(SEMICOLON)  &kp L      &kp LG(NUMBER_0)  &kp LG(U)            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+           &kp LSHIFT         &kp LG(J)     &kp X              &kp S      &kp B             &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans  &trans
+           &kp LEFT_COMMAND   &kp LEFT_ALT  &kp C              &kp V      &kp E             &kp LEFT_BRACKET     &trans  &trans  &trans  &trans  &trans  &trans
+                                                               &kp LG(Z)  &kp LG(LS(Z))     &mt SPACE RETURN     &trans  &trans  &trans
             >;
         };
 
-        layer_3 {
+        layer_procreate_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans  &trans
+&lt 4 ESC  &kp LG(BACKSPACE)  &kp LG(U)      &kp LG(SEMICOLON)  &kp L             &kp LG(NUMBER_0)  &kp LG(U)            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+           &kp LSHIFT         &kp LG(J)      &kp X              &kp E             &kp B             &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans  &trans
+           &kp LG(Z)          &kp LG(LS(Z))  &kp C              &kp V             &kp S             &kp LEFT_BRACKET     &trans  &trans  &trans  &trans  &trans  &trans
+                                                                &kp LEFT_COMMAND  &kp LEFT_ALT      &mt SPACE RETURN     &trans  &trans  &trans
             >;
         };
 
@@ -55,10 +55,10 @@
 
         layer_adjust {
             bindings = <
-&sys_reset  &bootloader  &tog 0        &tog 1        &tog 2        &tog 3        &none           &none         &none         &none         &none         &none         &bootloader  &sys_reset
-            &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-            &none        &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &none
-                                                     &trans        &none         &trans          &trans        &none         &trans
+&none  &bootloader  &sys_reset    &tog 3        &tog 2        &tog 1        &tog 0          &none         &none         &none         &none         &none         &bootloader  &sys_reset
+       &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
+       &none        &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &none
+                                                &trans        &none         &trans          &trans        &none         &trans
             >;
         };
     };
