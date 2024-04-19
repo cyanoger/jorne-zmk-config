@@ -71,4 +71,13 @@
             >;
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        on-powering-on {
+            if-layers = <0>;
+            then-layer = <5>;
+        };
+    };
 };
