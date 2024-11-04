@@ -19,7 +19,7 @@
 
         layer_osu {
             bindings = <
-&lt 5 ESC  &kp TAB    &kp UP      &kp Z      &kp X     &kp Z        &kp X      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&lt 5 ESC  &kp TAB    &kp UP      &kp C      &kp X     &kp Z        &kp X      &trans  &trans  &trans  &trans  &trans  &trans  &trans
            &kp LEFT   &kp DOWN    &kp RIGHT  &trans    &trans       &kp RET    &trans  &trans  &trans  &trans  &trans  &trans
            &kp LCTRL  &kp LSHIFT  &kp LALT   &trans    &trans       &trans     &trans  &trans  &trans  &trans  &trans  &trans
                                              &kp LGUI  &kp K_CMENU  &kp SPACE  &trans  &trans  &trans
